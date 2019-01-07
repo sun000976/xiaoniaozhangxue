@@ -1,0 +1,116 @@
+.cont_wrap{
+	width: 780px;
+	margin: 0 auto;
+    min-height: 700px;
+    background: #fff;
+    padding: 70px 160px 220px 160px;
+}
+.cont_wrap .title_big,.cont_wrap>h2{
+	text-align: center;
+    font-size: 54px;
+    color: #311759;
+}
+.cont_wrap>h2{
+	 font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 6px;
+}
+.cont_wrap>img{
+	margin: 0 auto;
+	display: block;
+	margin-top: 15px;
+}
+.con_h1{
+	color: #311759;
+    font-size: 30px;
+    background: url(../img1/pen_line_long.png) no-repeat -320px 58px;
+    height: 60px;
+    position: relative;
+    margin-top: 70px;
+}
+.pen{
+	width: 61px;
+    height: 58px;
+    background: url(../img1/pen_article.png) no-repeat;
+    position: absolute;
+    right: 0px;
+    top: 7px;
+    cursor: pointer;
+}
+.pen:hover{
+	background-position: -61px 0;
+}
+.auther{   
+	color: #6b6a6f;
+    padding-top: 15px;
+    margin-bottom: 60px;
+}
+.auther span{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.article_con{
+	margin: 0 auto;
+}
+.link_btn_wrap{
+	margin-top: 80px;
+    margin-left: 350px;
+    width: 73px;
+    height: 73px;
+    overflow: hidden;
+}
+.link_btn{
+	width: 73px;
+    height: 73px;
+    float: left;
+    background: url(../img1/article_iflike.png) no-repeat;
+    cursor: pointer;
+}
+.link_love{
+	width: 135px;
+    height: 35px;
+    float: left;
+    margin-left: 5px;
+    background: url(../img1/article_iflike_nomberbg.png) no-repeat;
+    margin-top: 19px;
+    padding-top: 8px;
+    color: #fff;
+    text-align: center;
+    padding-left: 5px;
+}
+.link_btn_wrap:hover{
+	width:213px;
+	transition: all 0.5s ease 0s;
+}
+.link_btn_wrap:hover .link_btn{
+	animation:1s linear 0s normal none 1 running su-pudding;
+}
+.link_btn.checked{
+	background-position:0 -73px;
+	cursor:default;
+	transition: all 0.5s ease 0s;
+}
+
+.link_footer_img{
+	background: #fff url(../img1/map_bottomimg.png) top center no-repeat;
+    height: 33px;
+    width: 100%;
+    min-width: 1100px;
+}
+.xhts{
+	position: relative;
+    margin-top: 54px;
+}
+.xhts_box{
+	min-width: 235px;
+    padding: 27px 10px;
+    background: #f1f2f6;
+    border-radius: 5px;
+    position: absolute;
+    top: 370px;
+    left: 258px;
+    color: #311859;
+    font-size: 24px;
+    text-align: center;
+    opacity: 0;
+}

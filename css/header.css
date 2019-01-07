@@ -1,0 +1,84 @@
+.header {
+	background: #221236 url(../img1/header_bg.jpg) top center;
+	min-width: 1100px;
+}
+
+.header_box {
+	height: 120px;
+	width: 1100px;
+	margin: 0 auto;
+}
+.nav{
+	width: 630px;
+    margin: 0px auto;
+    height: 25px;
+    line-height: 25px;
+    float: right;
+    margin-top: 45px;
+    text-align: right;
+}
+.nav_piece{
+	float: left;
+    position: relative;
+    color: #fff;
+    z-index: 999;
+}
+.nav_piece h1{
+	font-size: 16px;
+	text-align: center;
+	padding: 0 15px;
+	position: relative;
+	cursor: pointer;
+	height: 35px;
+}
+.nav_piece h1:hover{
+   background: url(../img1/nav_now_bg.png) no-repeat bottom center;
+}
+.has_down h1{
+	padding: 0 40px 0 15px; 
+}
+/* .has_down:hover ul{
+	display: block;
+} */
+.now h1{
+	background: url(../img1/nav_now_bg.png) no-repeat bottom center;
+}
+.has_down h1 .nowbtn{
+	position: absolute;
+	display: block;
+	width: 25px;
+	height: 25px;
+	right: 8px;
+	top: 0;
+	background: url(../img1/nav_xiajiantou.png) no-repeat;
+	z-index: 999;
+}
+.nav_piece ul{
+	font-size: 15px;
+	position: absolute;
+	left: -16px;
+	top: 35px;
+	width: 180px;
+	line-height: 40px;
+	background: #36264a;
+	color: #fff;
+	cursor: pointer;
+	z-index: 999;
+	display: none;
+}
+.nav_piece ul li{
+	text-align: left;
+	padding-left: 30px;
+	transition: padding-left 0.4s ease 0s;
+}
+.nav_piece ul li:hover{
+	color:#fff;
+	padding-left:40px;
+	background:#3498db url(../img1/nav_li_bg.png) no-repeat 165px 15px;
+}
+
+
+   
+
+   
+
